@@ -1,0 +1,32 @@
+#nav-bar{
+    .container{
+        .logo{
+            margin-top: 57px;
+        }
+        .nav-items{
+            margin-top: 71px;
+            ul{
+                li{
+                    padding-left: 20px;
+                    a{
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 23px;
+                        color: $nav-bar-item-color;
+                        transition: all .4s ease;
+                        &:hover{
+                            color: $nav-bar-item-focus-color;
+                            text-decoration: none;
+                            transition: all .4s ease;
+                        }
+                        &:focus{
+                            color: $nav-bar-item-focus-color;
+                            font-weight: 700;
+                            transition: all .4s ease;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
