@@ -175,6 +175,11 @@ table {
   left: -104px;
   top: 200vh;
 }
+#findDoctor .container .row .services-items .find-a-doctor-dots {
+  position: absolute;
+  left: 163vh;
+  top: 248vh;
+}
 #findDoctor .container .row .col-12 .learn-btn {
   margin-top: 72px;
 }
@@ -190,4 +195,8 @@ table {
   font-size: 18px;
   line-height: 60px;
   outline: none;
+}
+
+#apps {
+  padding-top: 220px;
 }
