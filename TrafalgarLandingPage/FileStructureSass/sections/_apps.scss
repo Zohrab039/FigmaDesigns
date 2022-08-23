@@ -1,3 +1,35 @@
 #apps{
     padding-top: 220px;
+    .container{
+        .healthcare-items{
+            .healthcare-img{
+                padding-right: 80px;
+                img{
+                    max-width: 650px;
+                    max-height: 477px;
+                }
+            }
+            .healthcare-about{
+                h1{
+                    font-weight: 700;
+                    font-size: 36px;
+                    line-height: 56px;
+                }
+                p{
+                    font-weight: 300;
+                    font-size: 18px;
+                    line-height: 30px;
+                    color: $title-color;
+                }
+            }
+            .healthcare-border{
+                width: 56px;
+                height: 2px;
+                border-radius: 10px;
+                border: 1px solid black;
+                margin-top: 26px;
+                margin-bottom: 31px;
+            }
+        }
+    }
 }

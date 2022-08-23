@@ -200,3 +200,29 @@ table {
 #apps {
   padding-top: 220px;
 }
+#apps .container .healthcare-items .healthcare-img {
+  padding-right: 80px;
+}
+#apps .container .healthcare-items .healthcare-img img {
+  max-width: 650px;
+  max-height: 477px;
+}
+#apps .container .healthcare-items .healthcare-about h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 56px;
+}
+#apps .container .healthcare-items .healthcare-about p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #7D7987;
+}
+#apps .container .healthcare-items .healthcare-border {
+  width: 56px;
+  height: 2px;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin-top: 26px;
+  margin-bottom: 31px;
+}
