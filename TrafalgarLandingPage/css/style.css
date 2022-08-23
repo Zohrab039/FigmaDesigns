@@ -175,3 +175,19 @@ table {
   left: -104px;
   top: 200vh;
 }
+#findDoctor .container .row .col-12 .learn-btn {
+  margin-top: 72px;
+}
+#findDoctor .container .row .col-12 .learn-btn button {
+  width: 200px;
+  height: 60px;
+  border-radius: 55px;
+  border: 1px solid #458FF6;
+  background: #FFFFFF;
+  color: #458FF6;
+  font-weight: 700;
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+  line-height: 60px;
+  outline: none;
+}
