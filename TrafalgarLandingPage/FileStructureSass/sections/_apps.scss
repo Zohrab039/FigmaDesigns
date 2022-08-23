@@ -3,7 +3,7 @@
     .container{
         .healthcare-items{
             .healthcare-img{
-                padding-right: 80px;
+                padding-right: 65px;
                 img{
                     max-width: 650px;
                     max-height: 477px;
@@ -20,6 +20,9 @@
                     font-size: 18px;
                     line-height: 30px;
                     color: $title-color;
+                }
+                .learn-btn{
+                    margin-top: 40px
                 }
             }
             .healthcare-border{

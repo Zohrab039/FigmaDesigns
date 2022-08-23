@@ -56,6 +56,20 @@ table {
   box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
 }
 
+.learn-btn button {
+  width: 200px;
+  height: 60px;
+  border-radius: 55px;
+  border: 1px solid #458FF6;
+  background: #FFFFFF;
+  color: #458FF6;
+  font-weight: 700;
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+  line-height: 60px;
+  outline: none;
+}
+
 #nav-bar .container .logo {
   margin-top: 57px;
 }
@@ -183,25 +197,12 @@ table {
 #findDoctor .container .row .col-12 .learn-btn {
   margin-top: 72px;
 }
-#findDoctor .container .row .col-12 .learn-btn button {
-  width: 200px;
-  height: 60px;
-  border-radius: 55px;
-  border: 1px solid #458FF6;
-  background: #FFFFFF;
-  color: #458FF6;
-  font-weight: 700;
-  font-family: "Mulish", sans-serif;
-  font-size: 18px;
-  line-height: 60px;
-  outline: none;
-}
 
 #apps {
   padding-top: 220px;
 }
 #apps .container .healthcare-items .healthcare-img {
-  padding-right: 80px;
+  padding-right: 65px;
 }
 #apps .container .healthcare-items .healthcare-img img {
   max-width: 650px;
@@ -217,6 +218,9 @@ table {
   font-size: 18px;
   line-height: 30px;
   color: #7D7987;
+}
+#apps .container .healthcare-items .healthcare-about .learn-btn {
+  margin-top: 40px;
 }
 #apps .container .healthcare-items .healthcare-border {
   width: 56px;

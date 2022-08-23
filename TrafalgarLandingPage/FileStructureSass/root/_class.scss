@@ -4,4 +4,20 @@
 
 .service-item-shadow{
     box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+};
+
+.learn-btn{
+    button{
+        width: 200px;
+        height: 60px;
+        border-radius: 55px;
+        border: 1px solid $main-bg;
+        background: $service-item-bg;
+        color: $main-bg;
+        font-weight: 700;
+        font-family: 'Mulish', sans-serif;
+        font-size: 18px;
+        line-height: 60px;
+        outline: none;
+    }
 }
