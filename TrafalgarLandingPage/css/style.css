@@ -140,6 +140,9 @@ table {
 #findDoctor .container .row .services-items {
   margin-top: 80px;
 }
+#findDoctor .container .row .services-items .row {
+  margin-bottom: 37px;
+}
 #findDoctor .container .row .services-items .row .col-4 .services-item {
   position: relative;
   width: 350px;
