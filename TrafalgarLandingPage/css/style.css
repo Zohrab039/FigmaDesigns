@@ -78,3 +78,32 @@ table {
   font-weight: 700;
   transition: all 0.4s ease;
 }
+
+#home .container .row .col-5 .home-head {
+  padding-top: 186px;
+}
+#home .container .row .col-5 .home-head h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+}
+#home .container .row .col-5 .home-title p {
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 32px;
+  color: #7D7987;
+}
+#home .container .row .col-5 .consult-btn {
+  background: #458FF6;
+  border-radius: 55px;
+  width: 200px;
+  height: 56px;
+  border: none;
+  color: #eee;
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 48px;
+}
+#home .container .row .col-7 .home-img {
+  padding-top: 84px;
+}

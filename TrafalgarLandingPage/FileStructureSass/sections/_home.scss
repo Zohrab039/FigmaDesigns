@@ -1,0 +1,41 @@
+#home{
+    
+    .container{
+        .row{
+            .col-5{
+                .home-head{
+                    padding-top: 186px;
+                    h1{
+                        font-weight: 700;
+                        font-size: 48px;
+                        line-height: 56px;
+                    }
+                }
+                .home-title{
+                    p{
+                        font-weight: 300;
+                        font-size: 21px;
+                        line-height: 32px;
+                        color: $title-color;
+                    }
+                }
+                .consult-btn{
+                    background: $main-bg;
+                    border-radius: 55px;
+                    width: 200px;
+                    height: 56px;
+                    border: none;
+                    color: #eee;
+                    font-weight: 700;
+                    font-size: 18px;
+                    margin-top: 48px;
+                }
+            }
+            .col-7{
+                .home-img{
+                    padding-top: 84px;
+                }
+            }
+        }
+    }
+}
