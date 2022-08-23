@@ -107,3 +107,29 @@ table {
 #home .container .row .col-7 .home-img {
   padding-top: 84px;
 }
+
+#findDoctor .container .row .col-12 .services-head {
+  padding-top: 191px;
+}
+#findDoctor .container .row .col-12 .services-head h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 56px;
+}
+#findDoctor .container .row .col-12 .services-head-border {
+  border: 1px solid black;
+  width: 56px;
+  height: 2px;
+  border-radius: 5px;
+  margin-top: 26px;
+  margin-left: 530px;
+}
+#findDoctor .container .row .col-12 .services-head-title {
+  padding-top: 33px;
+}
+#findDoctor .container .row .col-12 .services-head-title p {
+  font-weight: 300;
+  color: #7D7987;
+  font-size: 18px;
+  line-height: 30px;
+}

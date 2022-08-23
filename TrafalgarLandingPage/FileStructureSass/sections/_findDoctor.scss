@@ -1,0 +1,33 @@
+#findDoctor{
+    .container{
+        .row{
+            .col-12{
+                .services-head{
+                    padding-top: 191px;
+                    h1{
+                        font-weight: 700;
+                        font-size: 36px;
+                        line-height: 56px;
+                    }
+                }
+                .services-head-border{
+                    border: 1px solid black;
+                    width: 56px;
+                    height: 2px;
+                    border-radius: 5px;
+                    margin-top: 26px;
+                    margin-left: 530px;
+                }
+                .services-head-title{
+                    padding-top: 33px;
+                    p{
+                        font-weight: 300;
+                        color: $title-color;
+                        font-size: 18px;
+                        line-height: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
