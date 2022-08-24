@@ -12,6 +12,23 @@
             right: 0;
             top: 350px;
         }
+        .col-12{
+            .aboutus-btn{
+                font-family: 'Mulish', sans-serif;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 60px;
+                margin-top: 69px;
+                button{
+                    width: 200px;
+                    height: 60px;
+                    background: white;
+                    border: 1px solid $main-bg;
+                    border-radius: 55px;
+                    color: $main-bg;
+                }
+            }
+        }
         .row{
             .col-4{
                 .about-item{

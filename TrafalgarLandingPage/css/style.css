@@ -384,6 +384,21 @@ table {
   right: 0;
   top: 350px;
 }
+#about .container .col-12 .aboutus-btn {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 60px;
+  margin-top: 69px;
+}
+#about .container .col-12 .aboutus-btn button {
+  width: 200px;
+  height: 60px;
+  background: white;
+  border: 1px solid #458FF6;
+  border-radius: 55px;
+  color: #458FF6;
+}
 #about .container .row .col-4 .about-item {
   width: 350px;
   height: 512px;
