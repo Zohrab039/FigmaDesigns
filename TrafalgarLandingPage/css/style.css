@@ -311,6 +311,9 @@ table {
   margin: 0 auto;
   margin-top: 25px;
 }
+#testimonials .container .row .col-7 .testimonials-content {
+  z-index: 5;
+}
 #testimonials .container .row .col-7 .testimonials-content .person-img {
   margin-top: 70px;
   margin-left: 122px;
@@ -330,6 +333,12 @@ table {
   color: rgba(255, 255, 255, 0.85);
   margin-top: 129px;
   margin-left: -183px;
+}
+#testimonials .container .row .col-7 .testimonials-content .testimonials-dots img {
+  position: absolute;
+  top: 19vh;
+  left: -7vh;
+  z-index: -1;
 }
 #testimonials .container .row .col-5 .comment {
   margin-top: 77px;
