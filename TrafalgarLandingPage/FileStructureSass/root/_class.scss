@@ -21,3 +21,22 @@
         outline: none;
     }
 }
+
+.mobile-apps-btn{
+    button{
+        width: 200px;
+        height: 60px;
+        border-radius: 55px;
+        border: 1px solid $main-bg;
+        background: $service-item-bg;
+        color: $main-bg;
+        font-weight: 700;
+        font-family: 'Mulish', sans-serif;
+        font-size: 18px;
+        line-height: 60px;
+        outline: none;
+        &:focus{
+            outline: none;
+        }
+    }
+}
