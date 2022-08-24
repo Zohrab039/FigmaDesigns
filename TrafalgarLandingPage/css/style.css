@@ -457,11 +457,11 @@ table {
   position: absolute;
   bottom: 0;
 }
-.footer .footer-container {
+.footer .footer-container .footer-item {
   padding-top: 118px;
   padding-left: 191px;
 }
-.footer .footer-container .footer-item-1 .footer-about-title .footer-logo {
+.footer .footer-container .footer-item .footer-about-title .footer-logo {
   width: 41px;
   height: 41px;
   border-radius: 50%;
@@ -474,7 +474,7 @@ table {
   font-size: 26px;
   line-height: 32.63px;
 }
-.footer .footer-container .footer-item-1 .footer-about-title .footer-title {
+.footer .footer-container .footer-item .footer-about-title .footer-title {
   font-weight: 700;
   font-size: 24px;
   line-height: 30px;
@@ -482,11 +482,34 @@ table {
   color: white;
   padding-left: 12px;
 }
-.footer .footer-container .footer-item-1 .footer-item-1-desc {
-  width: 391px;
+.footer .footer-container .footer-item .footer-item-desc {
   margin-top: 22px;
+  margin-bottom: 31px;
+  width: 391px;
   font-size: 18px;
   font-weight: 300;
   line-height: 28px;
+  color: #ffffff;
+}
+.footer .footer-container .footer-item .footer-item-rights {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+}
+.footer .footer-container .footer-company-item {
+  padding-top: 109px;
+  padding-left: 40px;
+}
+.footer .footer-container .footer-company-item .company-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 60px;
+  color: #ffffff;
+}
+.footer .footer-container .footer-company-item .company-list li {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 38px;
   color: #ffffff;
 }
