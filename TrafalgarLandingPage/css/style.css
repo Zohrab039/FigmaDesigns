@@ -441,3 +441,19 @@ table {
 #about .container .row .col-4 .about-item a i {
   padding-left: 10px;
 }
+
+.footer-header-dots {
+  position: absolute;
+  left: 160vh;
+  top: 794vh;
+}
+
+.footer {
+  margin-top: 200px;
+  height: 432px;
+  background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+}
+.footer .footer-dots img {
+  position: absolute;
+  bottom: 0;
+}
