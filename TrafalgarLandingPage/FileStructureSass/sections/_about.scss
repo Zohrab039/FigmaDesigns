@@ -1,0 +1,62 @@
+#about{
+    padding-top: 385px;
+    position: relative;
+    .container{
+        .about-dots{
+            position: absolute;
+            left: 75px;
+            top: 49vh;
+        }
+        .about-vector{
+            position: absolute;
+            right: 0;
+            top: 350px;
+        }
+        .row{
+            .col-4{
+                .about-item{
+                    width: 350px;
+                    height: 512px;
+                    background: $service-item-bg;
+                    border-radius: 20px;
+                    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+                    img{
+                        border-radius: 20px 20px 0 0;
+                    }
+                    h1{
+                        margin-top: 24px;
+                        margin-left: 33px;
+                        font-weight: 700;
+                        font-size: 21px;
+                        line-height: 32px;
+                        color: $header-color;
+                    }
+                    p{
+                        margin-top: 12px;
+                        margin-left: 33px;
+                        font-weight: 300;
+                        font-size: 16px;
+                        line-height: 28px;
+                        color: $title-color;
+                    }
+                    a{
+                        font-weight: 600;
+                        font-family: 'Mulish', sans-serif;
+                        font-size: 17px;
+                        line-height: 28px;
+                        margin-top: 25px;
+                        margin-left: 33px;
+                        color: $main-bg;
+                        &:hover{
+                            text-decoration: none;
+                            color: $main-bg;
+                        }
+                        i{
+                            padding-left: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
