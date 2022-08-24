@@ -340,3 +340,23 @@ table {
   line-height: 30px;
   color: rgba(255, 255, 255, 0.9);
 }
+#testimonials .container .testimonials-arrow {
+  margin-top: 132px;
+}
+#testimonials .container .testimonials-arrow .arrow-left, #testimonials .container .testimonials-arrow .arrow-right {
+  font-size: 30px;
+  color: #458FF6;
+  padding-left: 89px;
+  padding-right: 89px;
+}
+#testimonials .container .testimonials-arrow .circle {
+  margin-top: 6px;
+  font-size: 15px;
+  color: #458FF6;
+  opacity: 0.4;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+#testimonials .container .testimonials-arrow .circle:nth-child(2) {
+  opacity: 1;
+}

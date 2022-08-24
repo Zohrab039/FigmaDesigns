@@ -68,5 +68,25 @@
                 }
             }
         }
+        .testimonials-arrow{
+            margin-top: 132px;
+            .arrow-left, .arrow-right{
+                font-size: 30px;
+                color: $main-bg;
+                padding-left: 89px;
+                padding-right: 89px;
+            }
+            .circle{
+                margin-top: 6px;
+                font-size: 15px;
+                color: $main-bg;
+                opacity: .4;
+                padding-left: 18px;
+                padding-right: 18px;
+                &:nth-child(2){
+                    opacity: 1;
+                }
+            }
+        }
     }
 }
