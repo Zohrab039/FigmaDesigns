@@ -288,3 +288,55 @@ table {
   background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
   border-radius: 24px;
 }
+#testimonials .container .row .col-12 .testimonials-header {
+  position: relative;
+}
+#testimonials .container .row .col-12 .testimonials-header h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #FFFFFF;
+  padding-top: 64px;
+}
+#testimonials .container .row .col-12 .testimonials-header img {
+  position: absolute;
+  left: 147vh;
+  top: 2vh;
+}
+#testimonials .container .row .col-12 .testimonials-header .testimonials-border {
+  width: 56px;
+  height: 2px;
+  border-radius: 6px;
+  background: #FFFFFF;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+#testimonials .container .row .col-7 .testimonials-content .person-img {
+  margin-top: 70px;
+  margin-left: 122px;
+}
+#testimonials .container .row .col-7 .testimonials-content h3 {
+  margin-top: 97px;
+  margin-left: 29px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 48px;
+  color: #FFFFFF;
+}
+#testimonials .container .row .col-7 .testimonials-content span {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 48px;
+  color: rgba(255, 255, 255, 0.85);
+  margin-top: 129px;
+  margin-left: -183px;
+}
+#testimonials .container .row .col-5 .comment {
+  margin-top: 77px;
+}
+#testimonials .container .row .col-5 .comment p {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.9);
+}
