@@ -17,27 +17,37 @@
     .footer-container{
         padding-top: 118px;
         padding-left: 191px;
-        .footer-about-title{
-            .footer-logo{
-                width: 41px;
-                height: 41px;
-                border-radius: 50%;
-                color: $main-bg;
-                border: 1px solid white;
-                justify-content: center;
-                align-items: center;
-                background: white;
-                font-weight: bold;
-                font-size: 26px;
-                line-height: 32.63px;
+        .footer-item-1{
+            .footer-about-title{
+                .footer-logo{
+                    width: 41px;
+                    height: 41px;
+                    border-radius: 50%;
+                    color: $main-bg;
+                    border: 1px solid white;
+                    justify-content: center;
+                    align-items: center;
+                    background: white;
+                    font-weight: bold;
+                    font-size: 26px;
+                    line-height: 32.63px;
+                }
+                .footer-title{
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 30px;
+                    margin-top: 5px;
+                    color: white;
+                    padding-left: 12px;
+                }
             }
-            .footer-title{
-                font-weight: 700;
-                font-size: 24px;
-                line-height: 30px;
-                margin-top: 5px;
-                color: white;
-                padding-left: 12px;
+            .footer-item-1-desc{
+                width: 391px;
+                margin-top: 22px;
+                font-size: 18px;
+                font-weight: 300;
+                line-height: 28px;
+                color: #ffffff;
             }
         }
     }
