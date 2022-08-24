@@ -371,8 +371,8 @@ table {
 }
 
 #about {
-  padding-top: 385px;
   position: relative;
+  padding-top: 385px;
 }
 #about .container .about-dots {
   position: absolute;
