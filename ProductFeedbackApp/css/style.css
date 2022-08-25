@@ -47,3 +47,45 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+.frontend-mentor {
+  width: 255px;
+  height: 137px;
+  background: radial-gradient(128.88% 128.88% at 103.9% -10.39%, #E84D70 0%, #A337F6 53.09%, #28A7ED 100%);
+  border-radius: 10px;
+}
+
+#suggestions {
+  font-family: "Jost", sans-serif;
+  background: #F7F8FD;
+}
+#suggestions .left-side {
+  padding-top: 94px;
+  padding-left: 165px;
+}
+#suggestions .left-side .frontend-mentor {
+  margin-bottom: 24px;
+}
+#suggestions .left-side .frontend-mentor h3 {
+  padding-top: 62px;
+  padding-left: 24px;
+  font-family: 700;
+  font-size: 20px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+#suggestions .left-side .frontend-mentor p {
+  margin-top: -10px;
+  padding-left: 24px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  opacity: 0.75;
+  color: #FFFFFF;
+}
+#suggestions .left-side .interactive-btns {
+  width: 255px;
+  height: 166px;
+  border-radius: 10px;
+  background: #FFFFFF;
+}
