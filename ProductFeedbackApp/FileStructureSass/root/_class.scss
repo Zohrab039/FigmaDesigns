@@ -4,3 +4,54 @@
     background: radial-gradient(128.88% 128.88% at 103.9% -10.39%, #E84D70 0%, #A337F6 53.09%, #28A7ED 100%);
     border-radius: 10px;
 }
+
+.interactive-btn{
+    border: none;
+    background: $suggestions-element-bg;
+    border-radius: 10px;
+    color: $main-btn-color;
+    text-align: center;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    height: 30px;
+    &:hover{
+        background: $interactive-btn-hover-bg;
+        border: none;
+    }
+    &:active{
+        background: $main-btn-color;
+        color: $feedback-item-bg;
+    }
+    &:focus{
+        outline: none;
+    }
+}
+
+.btn-all{
+    margin-top: 24px;
+    margin-left: 24px;
+    width: 48px;
+}
+
+.btn-ui{
+    width: 48px;
+    margin-left: 8px;
+}
+
+.btn-enh{
+    margin-top: 14px;
+    margin-left: 24px;
+    width: 111px;
+}
+
+.btn-bug{
+    width: 56px;
+    margin-left: 14px;
+}
+
+.btn-feature{
+    width: 77px;
+    margin-top: 14px;
+    margin-left: 24px;
+}

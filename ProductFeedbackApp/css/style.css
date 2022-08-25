@@ -55,6 +55,57 @@ table {
   border-radius: 10px;
 }
 
+.interactive-btn {
+  border: none;
+  background: #F2F4FF;
+  border-radius: 10px;
+  color: #4661E6;
+  text-align: center;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 19px;
+  height: 30px;
+}
+.interactive-btn:hover {
+  background: #CFD7FF;
+  border: none;
+}
+.interactive-btn:active {
+  background: #4661E6;
+  color: #FFFFFF;
+}
+.interactive-btn:focus {
+  outline: none;
+}
+
+.btn-all {
+  margin-top: 24px;
+  margin-left: 24px;
+  width: 48px;
+}
+
+.btn-ui {
+  width: 48px;
+  margin-left: 8px;
+}
+
+.btn-enh {
+  margin-top: 14px;
+  margin-left: 24px;
+  width: 111px;
+}
+
+.btn-bug {
+  width: 56px;
+  margin-left: 14px;
+}
+
+.btn-feature {
+  width: 77px;
+  margin-top: 14px;
+  margin-left: 24px;
+}
+
 #suggestions {
   font-family: "Jost", sans-serif;
   background: #F7F8FD;
