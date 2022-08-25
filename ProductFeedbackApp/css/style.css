@@ -140,3 +140,32 @@ table {
   border-radius: 10px;
   background: #FFFFFF;
 }
+#suggestions .left-side .roadmap {
+  width: 255px;
+  height: 178px;
+  margin-top: 24px;
+  border-radius: 10px;
+  background: #FFFFFF;
+}
+#suggestions .left-side .roadmap .roadmap-header h3 {
+  margin-top: 19px;
+  margin-right: 99px;
+  margin-left: 24px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.25px;
+  color: #3A4374;
+}
+#suggestions .left-side .roadmap .roadmap-header span {
+  margin-top: 23px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 19px;
+  color: #4661E6;
+  text-decoration: underline;
+  cursor: pointer;
+}
+#suggestions .left-side .roadmap .roadmap-header span:active {
+  color: #8397F8;
+}
